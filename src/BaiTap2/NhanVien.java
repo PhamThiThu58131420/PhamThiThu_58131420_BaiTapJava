@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package BaiTap1;
+package BaiTap2;
 
 /**
  *
  * @author phamthu
  */
-public class NhanVien 
+public class NhanVien
 {
-    String ten,tuoi,diaChi;
+     String ten,tuoi,diaChi;
     double tienluong;
     int tongSoGioLam;
 
@@ -67,9 +67,10 @@ public class NhanVien
     }
     public String getThongTin()
     {
-         return "ten"+getTen()+"\n"
-               +"tuoi"+getTuoi()+"\n"
-               +"diachi"+getDiaChi()+"\n";
+         return "tên:"+getTen()+"\n"
+               +"tuổi :"+getTuoi()+"\n"
+               +"địa chỉ :"+getDiaChi()+"\n"
+                 +"tiền thưởng :"+tinhThuong()+"\n";
     }
     public  double tinhThuong()
     {
