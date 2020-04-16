@@ -12,12 +12,12 @@ package BaiTap4;
 public class ChuyenXe
 {
     String maChuyenXe,hoTenTaiXe,soXe;
-    double doanhThu;
+    float doanhThu;
 
     public ChuyenXe() {
     }
 
-    public ChuyenXe(String maChuyenXe, String hoTenTaiXe, String soXe, double doanhThu) {
+    public ChuyenXe(String maChuyenXe, String hoTenTaiXe, String soXe, float doanhThu) {
         this.maChuyenXe = maChuyenXe;
         this.hoTenTaiXe = hoTenTaiXe;
         this.soXe = soXe;
@@ -52,7 +52,7 @@ public class ChuyenXe
         return doanhThu;
     }
 
-    public void setDoanhThu(double doanhThu) {
+    public void setDoanhThu(float doanhThu) {
         this.doanhThu = doanhThu;
     }
     

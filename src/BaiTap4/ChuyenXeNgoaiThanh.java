@@ -16,7 +16,7 @@ public class ChuyenXeNgoaiThanh extends ChuyenXe
     public ChuyenXeNgoaiThanh() {
     }
 
-    public ChuyenXeNgoaiThanh(String noiDen, String soNgayDi, String maChuyenXe, String hoTenTaiXe, String soXe, double doanhThu) {
+    public ChuyenXeNgoaiThanh(String noiDen, String soNgayDi, String maChuyenXe, String hoTenTaiXe, String soXe, float doanhThu) {
         super(maChuyenXe, hoTenTaiXe, soXe, doanhThu);
         this.noiDen = noiDen;
         this.soNgayDi = soNgayDi;
@@ -74,7 +74,7 @@ public class ChuyenXeNgoaiThanh extends ChuyenXe
     }
 
     @Override
-    public void setDoanhThu(double doanhThu) {
+    public void setDoanhThu(float doanhThu) {
         this.doanhThu = doanhThu;
     }
 
